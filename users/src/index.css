@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*------------------------------NavBar---------------*/
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 0.5rem 0.375rem -0.375rem gray;
+  border-bottom: solid gray;
+}
+
+.nav-link {
+  font-weight: 300;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+}
+/*-------------Footer--------------------------*/
+.footer {
+  color: white;
+  padding: 0.625rem;
+  height: 5.725rem;  
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  );
+  background: linear-gradient(to right, #434343, #000000);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
+/*---------------------Page Not Found-------------------------*/
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+.contactUs {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*-----------------------------Register && Login*/
+.form-container{
+  display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 80vh;
+   flex-direction: column;
+   background-color: #ffdee9;
+   background-image: linear-gradient(0deg,#ffdee9 0%, #b5fffc 100% );
+}
+
+.form-container form{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 3.12rem;
+  background-color: #fff;
+}
+.form-container form .title{
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: "Playfair Display, serif";
+}
+
+.form-container form input{
+  border:none;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+}
+.form-container form button{
+  border: 1px solid black;
+  border-radius: 0;
+  background-color: #000;
+  color: white;
+  width: 250px;
+}
+.form-container form button:hover{
+ border: 1px solid black;
+ background: linear-gradient(
+  to right,
+  #434343,
+  #000000
+ );
+}
+
+.forgot-btn {
+  background-color: #434343a4 !important;
+  border: 0 !important;
+}
+
+.forgot-btn:hover {
+  color: white !important;
+}
+/*=================cart page===========================*/
+.cart-page {
+  margin-top: 64px;
+}
+
+.cart-page h1 {
+  padding: 15px !important;
+  font-family: "roboto", sans-serif;
+  font-weight: normal;
+  background-color: rgba(0, 0, 255, 0.072) !important;
+}
+.cart-page h1 > p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.cart-page .card {
+  padding: 5px !important;
+  height: 150px !important;
+  margin-bottom: 5px !important;
+}
+.cart-page .cart-remove-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart-page .cart-summary {
+  text-align: center;
+}
+/*=======================category======================*/
+.category {
+  flex-wrap: wrap;
+  margin-top: 80px !important;
+}
+.category .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 18rem;
+}
+.category .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.category .card-price {
+  color: green;
+  font-weight: bold;
+}
+.category button {
+  border-radius: 0;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.category .card-text {
+  color: rgb(90, 89, 89);
+}
+
+.category .card img:hover {
+  transform: scale(0.9);
+}
+
+.category .card-img-top {
+  height: 300px !important;
+}
+
+.product-details {
+  margin-top: 100px !important;
+}
+
+.product-details-info {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.product-details-info h6 {
+  margin-bottom: 20px !important;
+}
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
